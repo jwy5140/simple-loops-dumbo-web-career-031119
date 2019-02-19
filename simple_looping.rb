@@ -12,7 +12,7 @@ def loop_iterator(number_of_times)
   
   loop do
     puts phrase
-    number_of_times == 0 ? break : number_of_times -=
+    number_of_times == 0 ? break : number_of_times -= 1
   end
 end
 
@@ -32,7 +32,7 @@ def while_iterator(number_of_times)
   
   while number_of_times > 0 do
     puts phrase
-    number_of_times -=
+    number_of_times -= 1
   end
 end
 
@@ -43,7 +43,7 @@ def until_iterator(number_of_times)
   
   until number_of_times == 0 do
     puts phrase
-    number_of_times -=
+    number_of_times -= 1
   end
 end
 
